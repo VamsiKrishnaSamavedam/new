@@ -451,7 +451,7 @@ The following screenshots should be included in the final PDF report.
 
 ### Figure 1: Main Project Homepage
 
-Capture:
+
 <img width="2880" height="1704" alt="image" src="https://github.com/user-attachments/assets/a86771f8-9ad1-4594-8415-40afc94a99f7" />
 
 
@@ -461,15 +461,14 @@ http://newfirebird.cs.txstate.edu/~xtd15/demo/proc/unix-version/html/index-py.ht
 
 Caption:
 
-```text
-Figure 1: Main project homepage loaded through index-py.html.
-```
+Main project homepage loaded through index-py.html.
 
 ---
 
 ### Figure 2: Job Search Form
 
-Capture the form page:
+<img width="2880" height="1704" alt="image" src="https://github.com/user-attachments/assets/d5bc5573-ca72-42fc-898b-87aefa0da1b3" />
+
 
 ```text
 http://newfirebird.cs.txstate.edu/~xtd15/demo/proc/unix-version/html/job_search-py.html
@@ -477,25 +476,26 @@ http://newfirebird.cs.txstate.edu/~xtd15/demo/proc/unix-version/html/job_search-
 
 Caption:
 
-```text
-Figure 2: Job search form with job type, company, salary, location, and keyword fields.
-```
+Job search form with job type, company, salary, location, and keyword fields.
+
 
 ---
 
 ### Figure 3: Company Similarity Result
 
-Capture Intel company search result:
+Intel company search result:
+
+<img width="2880" height="1704" alt="image" src="https://github.com/user-attachments/assets/d499daff-45d5-4faa-94d3-9d74a102e56d" />
+<img width="2880" height="1704" alt="image" src="https://github.com/user-attachments/assets/09d12d9d-5b84-4fa1-9b26-5117ac3347d7" />
 
 ```text
-http://newfirebird.cs.txstate.edu/~xtd15/cgi-bin/jobsearch.py?job_type=All&job_title=All&specialty=All&company_name=Intel&location_type=region&region=All&state=All&city=All&salary=Any&field_keyword=
+http://newfirebird.cs.txstate.edu/~xtd15/cgi-bin/jobsearch.py?job_type=All&job_title=All&specialty=All&field_keyword=&location_type=region&region=All&state=All&city=All&salary=Any&company_name=Intel
 ```
 
 Caption:
 
-```text
-Figure 3: Similar-company result for Intel. Intel receives rating 100, while AMD, National Semiconductor, Texas Instrument, and Motorola are returned with rating penalties.
-```
+Similar-company result for Intel. Intel receives rating 100, while AMD, National Semiconductor, Texas Instrument, and Motorola are returned with rating penalties.
+
 
 ---
 
@@ -503,21 +503,26 @@ Figure 3: Similar-company result for Intel. Intel receives rating 100, while AMD
 
 Capture keyword search for `security`:
 
+<img width="2880" height="1704" alt="image" src="https://github.com/user-attachments/assets/da54b4e6-31a4-4273-a297-6765e70d8375" />
+<img width="2880" height="1704" alt="image" src="https://github.com/user-attachments/assets/0178ad98-e8a1-4a61-8d81-70b06d79a530" />
+
 ```text
-http://newfirebird.cs.txstate.edu/~xtd15/cgi-bin/jobsearch.py?job_type=All&job_title=All&specialty=All&company_name=All&location_type=region&region=All&state=All&city=All&salary=Any&field_keyword=security
+http://newfirebird.cs.txstate.edu/~xtd15/cgi-bin/jobsearch.py?job_type=All&job_title=All&specialty=All&field_keyword=security&location_type=region&region=All&state=All&city=All&salary=Any&company_name=All
 ```
 
 Caption:
 
-```text
-Figure 4: Keyword search result for “security”. Jobs containing the keyword are returned.
-```
+Keyword search result for “security”. Jobs containing the keyword are returned.
+
 
 ---
 
 ### Figure 5: Job Type Rating Result
 
-Capture job type search:
+job type search:
+<img width="2880" height="1704" alt="image" src="https://github.com/user-attachments/assets/b5abaa7e-1be3-4856-bf71-acb60b84e9b8" />
+<img width="2880" height="1704" alt="image" src="https://github.com/user-attachments/assets/13c3dd86-5df9-463b-ba5d-370c648d93cf" />
+
 
 ```text
 http://newfirebird.cs.txstate.edu/~xtd15/cgi-bin/jobsearch.py?job_type=Regular&job_title=All&specialty=All&company_name=All&location_type=region&region=All&state=All&city=All&salary=Any&field_keyword=
@@ -525,9 +530,8 @@ http://newfirebird.cs.txstate.edu/~xtd15/cgi-bin/jobsearch.py?job_type=Regular&j
 
 Caption:
 
-```text
-Figure 5: Job type rating result for Regular jobs. Exact Regular jobs receive the highest rating, and related job types can appear with lower ratings.
-```
+Job type rating result for Regular jobs. Exact Regular jobs receive the highest rating, and related job types can appear with lower ratings.
+
 
 ---
 
